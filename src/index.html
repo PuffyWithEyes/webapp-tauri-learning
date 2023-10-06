@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+    <style>
+      .logo.vanilla:hover {
+        filter: drop-shadow(0 0 2em #ffe21c);
+      }
+    </style>
+  </head>
+  <!-- Я не нашла как без стилей поменять отступы между div`ами, span`ами и тд -->
+  <body>
+	<h2>
+	  <font size="6">
+		<b>СЧÁСТЬЕ</b>
+	  </font>
+	</h2>
+	<p>
+	  <i>Средний род</i>
+	</p>
+	<!-- Я не нашла как без стилей сделать нумерацию жирной, а текст обычным -->
+	<b>
+	  <ol>
+		<li>
+		  <font size="4">
+			<span>Чувство полного, высшего удовлетворения.</span>
+		  </font>
+		  <font color="gray">
+			<p>"Стремление к счаcтью"</p>
+		  </font>
+		</li>
+		<li>
+		  <font size="4">
+			<span>Успех, удача.</span>
+		  </font>
+		  <font color="gray">
+			<p>"Ему во всем с."</p>
+		  </font>
+		</li>
+	  </ol>
+	</b>
+	<hr/>
+	<ul>
+	  <li>Русская кухня</li>
+	  <ul>
+		<li>Уха бурлацкая</li>
+		<li>Бабушкина тюря</li>
+		<li>Растегай</li>
+	  </ul>
+	  <li>Украинская кухня</li>
+	  <li>Молдавская кухня</li>
+	  <li>Кавказкая кухня</li>
+	  <li>Прибалтийская кухня</li>
+	</ul>
+	<hr/>
+	<!-- Я не нашла как поменять тип границы без стилей -->
+	<table border="3" cellpadding="3" width="500">
+	  <thead>
+		<tr>
+		  <th colspan="8">МУЖСКАЯ ОБУВЬ</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <th border="3">Россия</th>
+		  <td align="center">40</td>
+		  <td align="center">41</td>
+		  <td align="center">42</td>
+		  <td align="center">43</td>
+		  <td align="center">44</td>
+		  <td align="center">45</td>
+		  <td align="center">46</td>
+		</tr>
+		<tr>
+		  <th>Евросоюз</th>
+		  <td align="center">39</td>
+		  <td align="center">40</td>
+		  <td align="center">41</td>
+		  <td align="center">42</td>
+		  <td align="center">43</td>
+		  <td align="center">44</td>
+		  <td align="center">45</td>
+		</tr>
+		<tr>
+		  <th>Великобритания</th>
+		  <td align="center">6</td>
+		  <td align="center">7</td>
+		  <td align="center">8</td>
+		  <td align="center">8</td>
+		  <td align="center">10</td>
+		  <td align="center">11</td>
+		  <td align="center">12</td>
+		</tr>
+		<tr>
+		  <th>США</th>
+		  <td align="center">7</td>
+		  <td align="center">8</td>
+		  <td align="center">9</td>
+		  <td align="center">10</td>
+		  <td align="center">11</td>
+		  <td align="center">12</td>
+		  <td align="center">13</td>
+		</tr>
+	  </tbody>
+	</table>
+	<hr/>
+	<h2>
+	  <!-- Не нашла как у текста сделать размер типа float -->
+	  <b>
+		<span>Житель Томской области отбился<br/>от медведя системным блоком<br/>компьютера</span>
+	  </b>
+	</h2>
+	<img src="/assets/bear.jpg" alt="Мишка" />
+	<hr/>
+	<table border="1" width="510">
+	  <tbody>
+		<tr>
+		  <td colspan="2" rowspan="2" align="center">Ученик</td>
+		  <td colspan="2" align="center">Предмет</td>
+		</tr>
+		<tr>
+		  <td align="center">Математика</td>
+		  <td align="center">Информатика</td>
+		</tr>
+		<tr>
+		  <td rowspan="3" valign="top">Батутин Дима</td>
+		  <td>I четверть</td>
+		  <td align="center">4</td>
+		  <td align="center">4</td>
+		</tr>
+		<tr>
+		  <td>II четверть</td>
+		  <td align="center">4</td>
+		  <td align="center">5</td>
+		</tr>
+		<tr>
+		  <td>1-е полугодие</td>
+		  <td align="center">4</td>
+		  <td align="center">5</td>
+		</tr>
+		<tr>
+		  <td rowspan="3" valign="top">Голубев Миша</td>
+		  <td>I четверть</td>
+		  <td align="center">3</td>
+		  <td align="center">4</td>
+		</tr>
+		<tr>
+		  <td>II четверть</td>
+		  <td align="center">4</td>
+		  <td align="center">4</td>
+		</tr>
+		<tr>
+		  <td>1-е полугодие</td>
+		  <td align="center">4</td>
+		  <td align="center">4</td>
+		</tr>
+		<tr>
+		  <td rowspan="3" valign="top">Куликов Дима</td>
+		  <td>I четверть</td>
+		  <td align="center">5</td>
+		  <td align="center">5</td>
+		</tr>
+		<tr>
+		  <td>II четверть</td>
+		  <td align="center">5</td>
+		  <td align="center">5</td>
+		</tr>
+		<tr>
+		  <td>1-е полугодие</td>
+		  <td align="center">5</td>
+		  <td align="center">5</td>
+		</tr>
+		<tr>
+		  <td rowspan="3" valign="top">Радугина Алла</td>
+		  <td>I четверть</td>
+		  <td align="center">5</td>
+		  <td align="center">4</td>
+		</tr>
+		<tr>
+		  <td>II четверть</td>
+		  <td align="center">5</td>
+		  <td align="center">5</td>
+		</tr>
+		<tr>
+		  <td>1-е полугодие</td>
+		  <td align="center">5</td>
+		  <td align="center">5</td>
+		</tr>
+	  </tbody>
+	</table>
+	<hr/>
+	<font size="1" color="#7bbc9e">
+	  <b>ОБЩЕСТВО</b>
+	</font>
+	<font size="1" color="#78aa6e">
+	  <span>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;10 апреля 2014 11:45&nbsp;&nbsp;последнее обновление 10 апреля 2014 12:43</span>
+	</font>
+	<h2>
+	  <font size="5" color="#223604">
+		<b>СОБАКА ПЫТАЛАСЬ ПОКИНУТЬ ОМСК НА<br/>ЛЬДИНЕ</b>
+	  </font>
+	</h2>
+	<!-- Я не нашла как оцентровать текст текст/картинку отсномительно картинки/текста без использования стилей -->
+	<font size="2" color="#223604">
+	  <b>Автор:&nbsp;&nbsp;</b>
+	</font>
+	<img src="/assets/chel.jpg" alt="Артем Кримин" width="20" height="20" />
+	<font size="2" color="#0d959f">
+	  <b>Артем Кримин</b>
+	</font>
+	<font size="3" color="#2d4933">
+	  <p>
+		<b>Вчера в сети появились видеокадры с собакой, которая попала на отколовшуюся льдину и<br/>держала путь по Иртышу за пределы города.</b>
+	  </p>
+	</font>
+	<center>
+	  <img src="/assets/dog.jpg" alt="САБАКА" />
+	</center>
+  </body>
+</html>
+
