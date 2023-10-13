@@ -24,7 +24,7 @@ async function game_over() {
 }
 
 button.addEventListener("click", async function() {
-	if (counter != 1) {
+	if (counter != 15) {
 		counter++;
 		var randomX = Math.floor(Math.random() * ((document.body.offsetWidth - 100) - 101)) + 100;
 		var randomY = Math.floor(Math.random() * ((document.body.offsetHeight - 100) - 101)) + 100;
