@@ -76,7 +76,7 @@ button.addEventListener("click", async function() {
 		bodyAcc.appendChild(infoGit);
 		bodyAcc.appendChild(br);
 		bodyAcc.appendChild(infoTg);
-		license.textContent = "GNU 3.0 Licence";
+		license.textContent = "GNU 3.0 License";
 		license.classList = "license";
 		bodyAcc.appendChild(license);
 	}
