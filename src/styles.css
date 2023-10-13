@@ -4,8 +4,8 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: #0f0f0f;
-  background-color: #f6f6f6;
+  color: #F7B1A7;
+  background-color: #2d2725;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,13 +14,155 @@
   -webkit-text-size-adjust: 100%;
 }
 
-@font-face {
-	font-family: "Shantell Sans";
-	src: url("/assets/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf") format("truetype");
+
+@keyframes fade {
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
 
-.smart {
-	font-family: "Shantell Sans", sans-serif;
+.main-text {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	animation-name: fade;
+	animation-duration: 2s;
+	font-size: 255%;
+	text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+	white-space: nowrap;
+}
+
+
+@keyframes unfade {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+
+.main-text-unfade {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	animation-name: unfade;
+	animation-duration: 2s;
+	font-size: 255%;
+	text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+	white-space: nowrap;
+}
+
+
+@keyframes fade-unfade {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+.main-text-fade-unfade {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	animation-name: fade-unfade;
+	animation-duration: 4s;
+	font-size: 255%;
+	text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+	white-space: nowrap;
+}
+
+
+button.round {
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.invisible {
+	opacity: 0;
+}
+
+
+.main-page {
+	bottom: 5%;
+	left: 10%;
+	width: 80%;
+	height: 90%;
+	border-radius: 25px;
+	position: absolute;
+	background-color: #2d2a2e;
+}
+
+
+.ava {
+	left: 5%;
+	top: 5%;
+	width: auto;
+	max-height: 80%;
+	position: relative;
+	border-radius: 50%;
+}
+
+
+.head-account {
+	width: 100%;
+	height: 50%;
+	position: relative;
+	display: flex;
+}
+
+
+.head-text {
+	left: 10%;
+	font-size: 200%;
+	text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.body-account {
+	top: 50%;
+	width: 100%;
+	height: 50%;
+}
+
+
+a {
+	font-size: 128%;
+	color: #f7b1ff;
+}
+
+
+hr {
+	color: #F7B1A7;
+}
+
+
+.tg {
+	font-size: 128%;
+}
+
+
+.license {
+	top: 95%;
+	left: 50%;
+	text-align: center;
+	position: absolute;
+	transform: translate(-50%, -50%);
 }
 
