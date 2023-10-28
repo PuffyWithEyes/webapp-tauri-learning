@@ -166,6 +166,9 @@
 
 
 .main-react {
+	color: #f7fafc;
+	width: 100%;
+	height: 100%;
 	justify-content: center;
 	margin-top: 100px;
 }
@@ -233,28 +236,108 @@
 
 
 .data-science {
-	width: 600px;
-	height: 600px;
+	width: 425px;
+	height: 475px;
 	display: flex;
-	justify-content: left;
-	box-shadow: 0px 0px 7px -2px rgba(34, 60, 80, 1);
+	flex-direction: column;
+	box-shadow: 0px 0px 1px 0px rgba(34, 60, 80, 1);
 	position: relative;
-}
-
-
-.data-science__year {
-	margin-top: 40px;
-	margin-left: 50px;
-	position: relative;
+	padding-left: 50px;
+	padding-top: 40px;
+	padding-right: 50px;
 }
 
 
 .data-science__date {
 	color: #0079c1;
 	font-weight: bold;
-	font-size: 28px;
-	margin-top: 5px;
-	margin-left: 50px;
+	font-size: 32px;
+	margin: 5px;
+	margin-left: 0px;
 	position: relative;
+}
+
+
+.data-science__line {
+	width: 100%;
+	border-bottom: 2px solid #e7e8e9;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 25px;
+}
+
+
+.data-science__ad {
+	color: #0079c1;
+	font-weight: bold;
+	font-size: 26px;
+	margin-left: 0px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+
+/* Я не смогла сделать точно такой же градиент как на картинке */
+.data-science__false {
+	font-size: 26px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.375;
+	background: linear-gradient(to bottom, #292c3d, #ffffff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.data-science__add {
+	margin-left: 0px;
+	color: #93939e;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+
+.data-science__add-link {
+	color: #0079c1;
+	font-weight: bold;
+}
+
+
+.data-science__add-link:hover {
+	color: #229be3;
+}
+
+
+.end-line {
+	background: #0079c1;
+	width: 525px;
+	height: 10px;
+	box-shadow: 0px 0px 1px 0px rgba(34, 60, 80, 1);
+}
+
+
+.great-america {
+	color: #26222f;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+.autor-and-date {
+	color: #26293b;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+.ad-text {
+	color: #15111d;
+	margin-top: 10px;
 }
 
