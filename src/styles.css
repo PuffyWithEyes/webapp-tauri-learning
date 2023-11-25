@@ -229,3 +229,76 @@ input[type="checkbox"]:checked ~ .check-juice::after {
     transform: translateX(0px);
 }
 
+
+.card {
+    position: relative;
+    width: 427px;
+    height: 630px;
+    background-color: white;
+    border-radius: 6.47px;
+    border: 1.29px solid;
+    border-color: #dedede;
+}
+
+
+.card .avatar {
+    position: absolute;
+    width: 193px;
+    height: 193px;
+    top: 52px;
+    left: 116px;
+    background-image: url("assets/ava.svg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.card .paragraphe {
+    position: absolute;
+    width: 334px;
+    top: 282px;
+    left: 45px;
+    font-weight: 500;
+    color: #737373;
+    font-size: 20.7px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    line-height: 33.6px;
+}
+
+
+.card .starts {
+    position: absolute;
+    height: 38px;
+    top: 441px;
+    left: 108px;
+}
+
+
+.card .text-wrapper {
+    position: absolute;
+    width: 123px;
+    top: 507px;
+    left: 151px;
+    font-weight: 600;
+    color: #2091f9;
+    font-size: 18.1px;
+    letter-spacing: 0.26px;
+    line-height: 31px;
+    white-space: nowrap;
+}
+
+
+.card .div {
+    position: absolute;
+    width: 87px;
+    top: 542px;
+    left: 163px;
+    font-weight: 600;
+    color: #252b42;
+    font-size: 18.1px;
+    letter-spacing: 0.26px;
+    line-height: 31px;
+    white-space: nowrap;
+}
+
