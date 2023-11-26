@@ -6,6 +6,7 @@ Here I am learning a cool framework for Rust ^_^! To check my homework, change t
 * `third-hw`
 * `fourth-hw`
 * `fifth-hw`
+* `sixth-hw`
 # Installation cargo
 To build application you must install `cargo`:
 ## GNU/Linux
