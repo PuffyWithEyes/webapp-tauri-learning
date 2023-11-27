@@ -17,13 +17,13 @@
 
 @font-face {
     font-family: "Comfortaa";
-    src: url("assets/Comfortaa-VariableFont_wght.ttf");
+    src: url("../assets/Comfortaa-VariableFont_wght.ttf");
 }
 
 
 @font-face {
 	font-family: "Nunito";
-	src: url("assets/Nunito-VariableFont_wght.ttf");
+	src: url("../assets/Nunito-VariableFont_wght.ttf");
 }
 
 
@@ -190,9 +190,14 @@
 	}
 
 
-	.main-container .head-bot {
+	.main-container .head-bot-pc {
 		margin-top: 1%;
 		text-align: center;
+	}
+
+
+	.head-bot-mob {
+		display: none;
 	}
 
 
@@ -386,8 +391,12 @@
 	}
 
 
-	.main-container .head-bot {
-		display: inline-flex;
+	.head-bot-pc {
+		display: none;
+	}
+	
+
+	.main-container .head-bot-mob {
 		margin-top: 3%;
 	}
 
