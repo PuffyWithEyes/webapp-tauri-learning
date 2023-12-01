@@ -15,6 +15,12 @@
 }
 
 
+@font-face {
+	font-family: "Nunito";
+	src: url("assets/Nunito-VariableFont_wght.ttf");
+}
+
+
 .main-ad {
 	width: 450px;
 	height: 450px;
@@ -339,5 +345,143 @@
 .ad-text {
 	color: #15111d;
 	margin-top: 10px;
+}
+
+
+.header {
+    display: flex;
+	justify-content: space-between;
+	margin-top: 1.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	align-items: center;
+    background: #1e1f24;
+}
+
+
+.name {
+	color: #fde700;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 180%;
+	display: inline-block;
+}
+
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+    padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+    padding-bottom: 20%;
+    background: #121317;
+}
+
+
+.navi {
+    margin-right: 5%;
+	display: flex;
+	float: right;
+	transform: translateX(-50%);
+}
+
+
+.navi div {
+	color: white;
+	margin-left: 15%;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 180%;
+	display: inline-block;
+    white-space: nowrap;
+}
+
+
+.navi div:hover {
+	border-bottom: 2px solid #fde700;
+	border-radius: 1px;
+}
+
+
+.navi div:first-child {
+	border-bottom: 2px solid #fde700;
+	border-radius: 1px;
+}
+
+
+.navi div:first-child:hover {
+	border-bottom: 2px solid #1e1f24;
+	border-radius: 1px;
+}
+
+
+.hor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+
+.ava {
+	width: 45%;
+	height: 45%;
+	border-radius: 50%;
+	margin-right: 10%;
+    border: 20px solid #fde700;
+}
+
+
+.hi {
+    font-family: "Nunito";
+    color: #fde700;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+
+.im {
+    font-family: "Nunito";
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+
+.but-port {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #ffe400;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.but-port:hover {
+    background: #fff666;
+}
+
+
+.works {
+    background: #121317;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.works:hover {
+    background: #343439;
 }
 
