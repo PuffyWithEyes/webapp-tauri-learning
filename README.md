@@ -8,6 +8,7 @@ Here I am learning a cool framework for Rust ^_^! To check my homework, change t
 * `fifth-hw`
 * `sixth-hw`
 * `seventh-hw`
+* `huffman`
 # Installation cargo
 To build application you must install `cargo`:
 ## GNU/Linux
